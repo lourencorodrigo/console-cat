@@ -1,0 +1,14 @@
+{
+  "name": "console-cat",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Development dependencies and tests for the Console Cat language server (bundled into the Zed extension)",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
+}

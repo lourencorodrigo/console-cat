@@ -1,0 +1,8 @@
+[
+  {
+    "context": "Editor && mode == full && (extension == js || extension == jsx || extension == mjs || extension == cjs || extension == ts || extension == tsx || extension == mts || extension == cts || extension == vue || extension == svelte)",
+    "bindings": {
+      "ctrl-alt-l": "editor::ToggleCodeActions"
+    }
+  }
+]

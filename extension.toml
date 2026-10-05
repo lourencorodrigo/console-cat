@@ -1,0 +1,15 @@
+id = "console-cat"
+name = "Console Cat"
+version = "0.0.1"
+schema_version = 1
+authors = ["Rodrigo Lourenço <rsilvape@gmail.com>"]
+description = "Log the selected expression with console.log, placed after the statement that contains it (JavaScript/TypeScript)"
+repository = "https://github.com/lourencorodrigo/console-cat"
+
+[language_servers.console-cat]
+name = "Console Cat"
+languages = ["JavaScript", "TypeScript", "TSX", "Vue.js", "Svelte"]
+
+[[capabilities]]
+kind = "npm:install"
+package = "typescript"
